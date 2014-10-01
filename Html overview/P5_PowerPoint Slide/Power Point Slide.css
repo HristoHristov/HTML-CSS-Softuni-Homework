@@ -1,0 +1,30 @@
+body {
+	background-image: url(SoftuniBackground.jpg);
+	background-size: 1290px 900px;
+	color:#E0A94D;
+	margin-top: 70px;
+	font-size: 20px;
+}
+ {
+	color: #E0A94D;
+}
+div {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	width: 90%;
+	color: #EDEDED;
+	background-color:#4E4E46;
+}
+ul li{
+	list-style:square;
+    color: #E0A94D;
+}
+
+ul li span{
+    color: #EDEDED;
+}
+pre {
+	font-size: 19px;
+	margin-left: -87px;
+}

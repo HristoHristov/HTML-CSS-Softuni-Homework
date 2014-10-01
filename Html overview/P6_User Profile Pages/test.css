@@ -1,0 +1,17 @@
+body {
+	background-color: #ADD8E6;
+}
+img {
+    width: 100px;
+    height: 100px;
+}
+span {
+    display:block;
+    margin-top: 1px;
+}
+hr {
+	color: white;
+}
+dt,dd {
+	margin-top: 10px;
+}

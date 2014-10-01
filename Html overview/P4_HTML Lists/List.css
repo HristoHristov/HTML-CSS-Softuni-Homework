@@ -1,0 +1,28 @@
+
+ol.list-item {
+	list-style-type:upper-roman;
+}
+ol > li  {  		 
+    list-style-position:inherit;
+    text-indent: 1em;     	    
+}
+ol.nasted-item1 {
+	list-style-type:lower-alpha;
+}
+ul.nasted-item22{
+	margin-left: 25px;
+	list-style-type:circle;
+}
+ul.nasted-item222{
+	margin-left: 25px;
+	list-style-type:square;
+}
+ul.list-item3 {
+	margin-left: -9px;
+	list-style-type:disc;
+}
+div {
+	margin:auto;
+	border:solid;
+	width: 400px;
+}
