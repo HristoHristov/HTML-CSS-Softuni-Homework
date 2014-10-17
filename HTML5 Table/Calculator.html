@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="Calculator.css">
+</head>
+<body>
+	<form name="calc">
+	<table>
+		<thead>
+			<tr>
+				<th colspan="4"><input type="text" name="keys" value="" size="12"></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><input type="button" name="one" value="1" onclick="calc.keys.value +='1'"/></td>
+				<td><input type="button" name="two" value="2" onclick="calc.keys.value +='2'"/></td>
+				<td><input type="button" name="three" value="3" onclick="calc.keys.value +='3'"/></td>
+				<td><input type="button" name="plus" value="+" onclick="calc.keys.value +='+'"/></td>
+			</tr>
+			<tr>
+				<td><input type="button" name="four" value="4" onclick="calc.keys.value +='4'"/></td>
+				<td><input type="button" name="five" value="5" onclick="calc.keys.value +='5'"/></td>
+				<td><input type="button" name="six" value="6" onclick="calc.keys.value +='6'"/></td>
+				<td><input type="button" name="minus" value="-" onclick="calc.keys.value +='-'"/></td>
+			</tr>
+			<tr>
+				<td><input type="button" name="seven" value="7" onclick="calc.keys.value +='7'"/></td>
+				<td><input type="button" name="eight" value="8" onclick="calc.keys.value +='8'"/></td>
+				<td><input type="button" name="nine" value="9" onclick="calc.keys.value +='9'"/></td>
+				<td><input type="button" name="multiplication" value="*" onclick="calc.keys.value +='*'"/></td>
+			</tr>
+			<tr>
+				<td><input type="button" name="clear" value="C" onclick="calc.keys.value =''"/></td>
+				<td><input type="button" name="zero" value="0" onclick="calc.keys.value +='0'"/></td>
+				<td><input type="button" name="equal" value="=" onclick="calc.keys.value =eval(calc.keys.value)"/></td>
+				<td><input type="button" name="divide" value="/" onclick="calc.keys.value +='/'"/></td>
+			</tr>
+		</tbody>
+	</table>
+	</form>
+</body>
+</html>

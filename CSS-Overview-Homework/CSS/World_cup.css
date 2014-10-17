@@ -1,0 +1,91 @@
+#outer {
+	background: #009744;
+	width: 80%;
+	margin: auto;
+}
+#inner {
+	padding: 10px;
+	
+}
+table {
+    border: 5px solid black;	
+    border-radius: 5px;
+    border-style: hidden;
+    box-shadow: 0 0 0 3px #111; 
+    padding: 30px;
+    border-collapse: collapse;
+}
+img {
+	
+	height: 13px;
+	width: 18px;		
+	padding-top: 0px;
+	margin: -2px 0;	
+}
+.world-cup {
+	background: #F8CA14;
+	font-weight:bold;
+}
+td {
+	padding: 5px;
+	text-align:center;	
+	width: 140px;	
+    border: 3px solid black;
+}
+.left-align {	
+	text-align: left;
+	width: 400px;
+}
+.right-align {
+	text-align: right;
+	width: 300px;
+}
+.results {
+	font-size: 12px;
+}
+.white-font {
+	background: #FFFFFF;
+}
+.grey-font {
+	background: #CBCBCB;
+}
+.left-align1 {
+	text-align: left;
+	width:300px;
+}
+
+.right-align1 {
+	text-align: right;
+	width:110px;
+}
+.forecast-green {
+	color: #008600;
+}
+.forecast-red{
+	color: #FF0000;
+	
+}
+.green {
+	display:block;
+    width:40px;
+    height:40px;
+   border-radius: 50%;
+   border:none;
+   background-color: #008600;
+   color: white;
+}
+.red {	
+	display:block;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    border:none;
+    background-color: #FF0000;
+    color: white;
+}
+.button {
+	width: 30px;
+} 
+.forecast-cow {
+	width: 400px;
+}

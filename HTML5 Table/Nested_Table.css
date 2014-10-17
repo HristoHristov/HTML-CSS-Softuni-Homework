@@ -1,0 +1,22 @@
+  body,table,#table {
+  	margin:0;
+  	padding:0;
+  }
+  img {
+  	margin: 0 5px 0 5px;
+  }
+  table,td {
+  	margin: 0 auto 0 auto;  	
+  	border: 1px solid black;
+  	
+  }
+  #table {
+  	margin:10px;
+  	border-spacing: 3px;
+  	font-size: 40px;
+  	font-weight:500;
+  }
+  	table table {
+  		width: 200px;
+  		height: 180px;
+  	}
